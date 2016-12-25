@@ -47,7 +47,7 @@ custom (datasets for testing)
 
 * Scripts to generate training data(from wider face dataset)
     * run wider_annotations/transform.m to get the annotation file of the format we need.
-    * gen_pnet_train.py: obtain training samples for pnet
+    * gen_pnet_data.py: obtain training samples for pnet
     * gen_hard_example.py: prepare hard examples. 
 	you can set test_mode to "pnet" to get training data for rnet,
 	or set test_mode to "rnet" to get training data for onet.
